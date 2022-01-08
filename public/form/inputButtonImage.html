@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<form action="" method="get" id="form" name="">
+		<input type="text" id="id" name="id">	<!-- 데이터 입력 -->
+		
+		<input type="button" value="제출" onclick="here();">
+		
+		<br><input type="image" src="../../apple/member/images/carrot.jpg" height="100">
+	</form>
+	
+	<script type="text/javascript">
+		function here(){
+			alert("id : " + document.getElementById("id").value);
+			document.getElementById("form").submit();
+			
+		}
+	</script>
+</body>
+</html>
