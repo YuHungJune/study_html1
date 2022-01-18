@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssExcMultiSelector</title>
+
+    <style>
+        /*하위 선택자*/
+        
+        div ul li {
+            border: solid 1px black;
+        }
+        /*자식 선택자*/
+        
+        div>ul {
+            border: solid 1px red;
+        }
+        /*인접 형제 선택자*/
+        
+        h3+p {
+            color: red;
+        }
+        /*형제 선택자 */
+        
+        h3~p {
+            color: red;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <div>
+        <h3>취미</h3>
+        <p>취미가 다양하다</p>
+        <p>다양다양 진짜 다양다양</p>
+
+        <ul>
+            <li>형준</li>
+            <ul>
+                <li>프로그래밍</li>
+                <li>음악</li>
+                <li>독서</li>
+            </ul>
+            <li>bathory</li>
+            <ul>
+                <li>디자인</li>
+                <li>쇼핑</li>
+                <li>수다떨기</li>
+            </ul>
+        </ul>
+    </div>
+
+</body>
+
+</html>

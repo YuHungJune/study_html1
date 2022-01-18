@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssExcPosition6</title>
+</head>
+<style type="text/css">
+    #aaa {
+        background-color: red;
+        width: 200px;
+        height: 100px;
+    }
+    
+    #bbb {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        /*position: absolute;*/
+        /*
+        position: relative;
+        top: 50px;
+        left: 50px;
+        */
+    }
+    
+    #ccc {
+        background-color: gray;
+        width: 100px;
+        height: 100px;
+    }
+    
+    #ddd {
+        background-color: orange;
+        /*
+        position: relative;
+        top: 300px;
+        left: 300px;
+        */
+        /*position: relative;*/
+        position: absolute;
+        top: 300px;
+        left: 300px;
+    }
+</style>
+
+<body>
+
+    <div id="ddd">
+        <div id="aaa">원영</div>
+        <div id="bbb">원영</div>
+        <div id="ccc">원영</div>
+    </div>
+</body>
+
+</html>
